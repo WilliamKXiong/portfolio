@@ -1,5 +1,5 @@
 import './App.css';
-import professionPhoto from './img/Professional-Photo.jpg'
+import professionPhoto from './Images/Professional-Photo.jpg'
 
 function App() {
   return (
