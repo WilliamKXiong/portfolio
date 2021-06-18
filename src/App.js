@@ -1,13 +1,16 @@
-import './App.css';
-import professionPhoto from './Images/Professional-Photo.jpg'
+//import './App.css';
+import Home from './Pages/Home/Home';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello!</h1>
-      <h2>My name is William Xiong, and this is me.</h2>
-      <img src={professionPhoto} alt="professionalPhoto" />
-    </div>
+    <Router>
+          <Switch>
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
+    </Router>
   );
 }
 
