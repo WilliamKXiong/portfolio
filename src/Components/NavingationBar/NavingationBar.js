@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import { Nav, Navbar  } from 'react-bootstrap';
 const NavingationBar = () => {
     return (
-        <Navbar className="NavingationBar" expand="lg">
+        <Navbar className="NavingationBar" variant="dark" expand="lg">
             <Navbar.Brand href="/" className="NavBrand" style={{color:"white"}}>My Portfolio</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

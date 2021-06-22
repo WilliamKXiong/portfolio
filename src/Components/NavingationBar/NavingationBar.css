@@ -14,3 +14,7 @@
 .NavBrand {
     font-size:25px;
 }
+
+.navbar-white{
+    background-color: white;
+}
