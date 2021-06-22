@@ -1,3 +1,18 @@
 .row-c {
     text-align: center;
 }
+
+.container {
+    font-size: 30px;
+}
+
+.row-body {
+    
+    font-size:calc(15px + 1.0vw);
+    max-width: 100%;
+    height: auto;
+}
+
+.col-text {
+    max-width: 100%
+}
