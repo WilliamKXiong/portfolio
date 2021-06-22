@@ -7,7 +7,7 @@ import ProfessionalPhoto from '../../Images/Professional-Photo.jpg'
 const About = () => {
     return (
         <Container>
-            <Row className="px-5">
+            <Row className="pt-2 px-5">
                 <h1>About Me</h1>
             </Row>
             <Row className="px-5 row-body">
@@ -20,10 +20,10 @@ const About = () => {
                     </span>
                 </Col>
                 <Col sm={4} className="d-flex col-text">
-                    <Image src={ProfessionalPhoto} roundedCircle />
+                    <a href="#/contact" title="Contact"><Image src={ProfessionalPhoto} roundedCircle /></a>
                 </Col>
             </Row>
-            <Row className="px-5 row-body">
+            <Row className="pt-2 px-5 row-body">
                 <h1>About this site</h1>
             </Row>
             <Row className="px-5 row-body">

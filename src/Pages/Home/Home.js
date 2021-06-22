@@ -66,6 +66,33 @@ const Home = () => {
                 </Col>
                 <Col sm={4} className="px-5">
                     <Card>
+                        <Card.Img height="315" src={MyPorfolio}/>
+                        <Card.Body className="d-flex flex-column">
+                            <Card.Title>
+                                Online Portfolio
+                            </Card.Title>
+                            <Card.Text>
+                                <span>
+                                    My online portfolio created with React.js, Bootstrap, hosted by Github Pages and using Google Domains.
+                                </span>
+                            </Card.Text>
+                            <Card.Text className="mt-auto">
+                                <Row>
+                                    <Col sm={8}>
+                                        <ButtonLink link="https://github.com/WilliamKXiong/portfolio" text="Github" />
+                                    </Col>
+                                    <Col sm={4}>
+                                        <ButtonLink variant="link" link="#/My-Online-Portfolio" text="More Details" linkSVG="" />
+                                    </Col>
+                                </Row>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+            </Row>
+            <Row className="projects pb-5">
+                <Col sm={4} className="px-5">
+                    <Card>
                         <Card.Img height="315" src={ComingSoon} />
                         <Card.Body className="d-flex flex-column">
                             <Card.Title>
@@ -85,33 +112,6 @@ const Home = () => {
                                     </Col>
                                     <Col sm={4}>
                                         <ButtonLink variant="link" link="#/PC-Builder" text="More Details" linkSVG="" />
-                                    </Col>
-                                </Row>
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                </Col>
-            </Row>
-            <Row className="projects pb-5">
-                <Col sm={4} className="px-5">
-                    <Card>
-                        <Card.Img height="315" src={MyPorfolio}/>
-                        <Card.Body className="d-flex flex-column">
-                            <Card.Title>
-                                Online Portfolio
-                            </Card.Title>
-                            <Card.Text>
-                                <span>
-                                    My online portfolio created with React.js, Bootstrap, hosted by Github Pages and using Google Domains.
-                                </span>
-                            </Card.Text>
-                            <Card.Text className="mt-auto">
-                                <Row>
-                                    <Col sm={8}>
-                                        <ButtonLink link="https://github.com/WilliamKXiong/portfolio" text="Github" />
-                                    </Col>
-                                    <Col sm={4}>
-                                        <ButtonLink variant="link" link="#/My-Online-Portfolio" text="More Details" linkSVG="" />
                                     </Col>
                                 </Row>
                             </Card.Text>
