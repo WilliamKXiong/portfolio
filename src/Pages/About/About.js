@@ -1,21 +1,25 @@
 //import './About.css'
 import '../../Helper/CommonlyUsed.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import NavingationBar from '../../Components/NavingationBar/NavingationBar'
-import { Container, Row, Col } from 'react-bootstrap';
+import { Image, Container, Row, Col } from 'react-bootstrap';
+import ProfessionalPhoto from '../../Images/Professional-Photo.jpg'
 
 const About = () => {
     return (
-        <Container fluid className="text-center">
-            <Row className="row-c">
-                <Col sm={12}>
-                    About
+        <Container>
+            <Row className="pl-5">
+                <h1>About Me</h1>
+            </Row>
+            <Row>
+                <Col sm={8} className="pl-2">
+                    <span>This is sample text</span>
+                </Col>
+                <Col sm={4} className="d-flex justify-content-center">
+                    <Image src={ProfessionalPhoto} roundedCircle fluid/>
                 </Col>
             </Row>
-            <Row className="row-c">
-                <Col sm={12}>
-                    This is my online portfolio created with React.js, hosted with Github Pages, and using Google Domain
-                </Col>
+            <Row>
+
             </Row>
         </Container>
     )

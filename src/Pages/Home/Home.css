@@ -1,5 +1,5 @@
 .projects {
-    background-color: skyblue;
+    background-color: rgb(218, 218, 218);
 }
 
 .ProjectTitle {
@@ -13,4 +13,9 @@
     font-style: normal;
     font-variant: small-caps;
     text-transform: none;
+}
+
+.card {
+    height: 100%;
+    
 }
