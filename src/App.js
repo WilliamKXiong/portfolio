@@ -4,6 +4,7 @@ import NavingationBar from './Components/NavingationBar/NavingationBar';
 import Home from './Pages/Home/Home';
 import About from './Pages/About/About';
 import Contact from './Pages/Contact/Contact';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Contact />
         </Route>
       </Switch>
+      <Footer />
     </Router>
   );
 }

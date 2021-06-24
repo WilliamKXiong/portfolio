@@ -7,7 +7,7 @@ import MyPorfolio from '../../Images/MyPortfolio.jpg'
 //import JWTDemo from '../../Media/JWTDemo'
 import ButtonLink from '../../Components/ButtonLink/ButtonLink'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Image, Card, Container, Row, Col } from 'react-bootstrap';
+import { Card, Container, Row, Col } from 'react-bootstrap';
 
 const Home = () => {
     return (
@@ -17,8 +17,8 @@ const Home = () => {
                     <h1 className="ProjectTitle">Projects</h1>
                 </Col>
             </Row>
-            <Row className="projects pb-5">
-                <Col sm={4} className="px-5">
+            <Row className="projects">
+                <Col sm={4} className="px-5 col-card">
                     <Card>
                         <JavaBattleship />
                         <Card.Body className="d-flex flex-column">
@@ -30,7 +30,7 @@ const Home = () => {
                             </Card.Text>
                             <Card.Text className="mt-auto">
                                 <Row>
-                                    <Col sm={8}>
+                                    <Col sm={8} className="pt-3">
                                         <ButtonLink link="https://github.com/IsGai/Java-Battleship-Game" text="Github" />
                                     </Col>
                                     <Col sm={4}>
@@ -41,7 +41,7 @@ const Home = () => {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col sm={4} className="px-5">
+                <Col sm={4} className="px-5 col-card">
                     <Card>
                         <PCBuilder />
                         <Card.Body className="d-flex flex-column">
@@ -53,7 +53,7 @@ const Home = () => {
                             </Card.Text>
                             <Card.Text className="mt-auto">
                                 <Row>
-                                    <Col sm={8}>
+                                    <Col sm={8} className="github-button">
                                         <ButtonLink link="https://github.com/dTrksak/PCBuilder" text="Github" />
                                     </Col>
                                     <Col sm={4}>
@@ -64,7 +64,7 @@ const Home = () => {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col sm={4} className="px-5">
+                <Col sm={4} className="px-5 col-card">
                     <Card>
                         <Card.Img height="315" src={MyPorfolio}/>
                         <Card.Body className="d-flex flex-column">
@@ -78,7 +78,7 @@ const Home = () => {
                             </Card.Text>
                             <Card.Text className="mt-auto">
                                 <Row>
-                                    <Col sm={8}>
+                                    <Col sm={8} className="github-button">
                                         <ButtonLink link="https://github.com/WilliamKXiong/portfolio" text="Github" />
                                     </Col>
                                     <Col sm={4}>
@@ -91,7 +91,7 @@ const Home = () => {
                 </Col>
             </Row>
             <Row className="projects pb-5">
-                <Col sm={4} className="px-5">
+                <Col sm={4} className="px-5 col-card">
                     <Card>
                         <Card.Img height="315" src={ComingSoon} />
                         <Card.Body className="d-flex flex-column">
@@ -107,7 +107,7 @@ const Home = () => {
                             </Card.Text>
                             <Card.Text className="mt-auto">
                                 <Row>
-                                    <Col sm={8}>
+                                    <Col sm={8} className="github-button">
                                          <ButtonLink link="/" text="N/A" />
                                     </Col>
                                     <Col sm={4}>
@@ -118,9 +118,9 @@ const Home = () => {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col sm={4} className="px-5">
+                <Col sm={4} className="px-5 col-card">
                 </Col>
-                <Col sm={4} className="px-5">
+                <Col sm={4} className="px-5 col-card">
                 </Col>
             </Row>
         </Container>

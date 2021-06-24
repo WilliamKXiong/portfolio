@@ -4,7 +4,6 @@ import { Container, Row, Card } from 'react-bootstrap';
 import ButtonLink from '../../Components/ButtonLink/ButtonLink';
 
 const Contact = () => {
-    console.log(process.env);
     return (
         <Container fluid className="text-center">
                 <Row>
@@ -14,7 +13,7 @@ const Contact = () => {
                         </Card.Title>
                         <Card.Body className="">
                             <Card.Text>
-                                <ButtonLink link="#/" text="none" linkSVG=""/>
+                                <ButtonLink link="#footer" text="none" linkSVG=""/>
                             </Card.Text>
                         </Card.Body>
                     </Card>

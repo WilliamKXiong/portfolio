@@ -1,0 +1,11 @@
+.circle {
+    height: 300px;
+    width: 300px;
+    background-color: transparent;
+    border: 10px solid red;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+  }

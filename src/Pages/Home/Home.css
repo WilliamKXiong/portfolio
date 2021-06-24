@@ -15,7 +15,19 @@
     text-transform: none;
 }
 
+.col-card{
+    min-width: 225px;
+}
+
 .card {
+    min-width: 225px;
     height: 100%;
-    
+}
+
+.buttonLink {
+    vertical-align: baseline;
+}
+
+.github-button{
+    padding-top: 1rem!important;
 }

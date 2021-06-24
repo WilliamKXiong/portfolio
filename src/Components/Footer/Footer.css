@@ -1,0 +1,33 @@
+.footer {
+    background-color: #1f2224;
+    color: white;
+    margin: auto;
+    height: 101.8;
+}
+
+.footer-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.col-bc{
+    
+}
+
+.col-blank{
+    
+}
+
+.col-contact {
+    min-width: 228px;
+}
+
+.col-contact>.row {
+    position: absolute;
+    right:0;
+}
+
+.col-contact>.row>a {
+    text-decoration: none;
+}
+
