@@ -10,16 +10,13 @@ const Footer = () => {
     return (
         <Container fluid className="footer" id="footer">
             <Row>
-                <Col sm={6}>
-                    <Row className="footer-title">
+                <Col sm={6} className="footer-title">
+                    <Row>
                         <h1>My Portfolio</h1>
                     </Row>
                 </Col>
-                <Col sm={6} className="col-bc">
-                    <Col sm={6}>
-
-                    </Col>
-                    <Col sm={6} className="col-contact">
+                <Col sm={6}>
+                    <Col sm={12} className="col-contact">
                         <div className="circle"/>
                         <Row><a href="https://github.com/WilliamKXiong"><GithubWhiteSVG /> My Github</a></Row>
                         <Row><a href="https://www.linkedin.com/in/william-xiong-b5312a140/"><LinkedInSVG /> My LinkedIn</a></Row>
@@ -27,7 +24,7 @@ const Footer = () => {
                     </Col>
                 </Col>
             </Row>
-            <Row className="text-center">
+            <Row className="created-by">
                 <span>Created by: William Xiong</span>
             </Row>
         </Container>

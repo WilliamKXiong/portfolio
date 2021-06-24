@@ -1,8 +1,8 @@
-.footer {
+.footer, .container-fluid:after{
     background-color: #1f2224;
     color: white;
-    margin: auto;
-    height: 101.8;
+    height: auto !important;
+    min-width: 255px;
 }
 
 .footer-title {
@@ -10,24 +10,36 @@
     font-weight: bold;
 }
 
-.col-bc{
-    
-}
-
-.col-blank{
-    
-}
-
 .col-contact {
-    min-width: 228px;
-}
-
-.col-contact>.row {
+    min-width: 235px;
+    max-width: 235px;
     position: absolute;
-    right:0;
+    right: 0;
 }
 
 .col-contact>.row>a {
     text-decoration: none;
+    color: white;
 }
 
+.created-by {
+    justify-content: center;
+}
+
+@media (max-width: 680px) {
+    .created-by {
+        justify-content: left;
+    }
+}
+
+@media (max-width: 565px) {
+    .created-by {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .col-sm-12 {
+        position: relative;
+    }
+}
