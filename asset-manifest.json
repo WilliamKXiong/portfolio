@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.86673551.chunk.css",
-    "main.js": "/static/js/main.bd485786.chunk.js",
-    "main.js.map": "/static/js/main.bd485786.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.7e445664.js",
-    "runtime-main.js.map": "/static/js/runtime-main.7e445664.js.map",
+    "main.css": "/static/css/main.90468826.chunk.css",
+    "main.js": "/static/js/main.9fa9392c.chunk.js",
+    "main.js.map": "/static/js/main.9fa9392c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1364f7c8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1364f7c8.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.9bea6bae.chunk.js": "/static/js/2.9bea6bae.chunk.js",
-    "static/js/2.9bea6bae.chunk.js.map": "/static/js/2.9bea6bae.chunk.js.map",
-    "static/js/3.deebbb71.chunk.js": "/static/js/3.deebbb71.chunk.js",
-    "static/js/3.deebbb71.chunk.js.map": "/static/js/3.deebbb71.chunk.js.map",
+    "static/js/2.7f2237d8.chunk.js": "/static/js/2.7f2237d8.chunk.js",
+    "static/js/2.7f2237d8.chunk.js.map": "/static/js/2.7f2237d8.chunk.js.map",
+    "static/js/3.705f3d22.chunk.js": "/static/js/3.705f3d22.chunk.js",
+    "static/js/3.705f3d22.chunk.js.map": "/static/js/3.705f3d22.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.86673551.chunk.css.map": "/static/css/main.86673551.chunk.css.map",
-    "static/js/2.9bea6bae.chunk.js.LICENSE.txt": "/static/js/2.9bea6bae.chunk.js.LICENSE.txt",
+    "static/css/main.90468826.chunk.css.map": "/static/css/main.90468826.chunk.css.map",
+    "static/js/2.7f2237d8.chunk.js.LICENSE.txt": "/static/js/2.7f2237d8.chunk.js.LICENSE.txt",
     "static/media/MyPortfolio.09e934db.jpg": "/static/media/MyPortfolio.09e934db.jpg",
     "static/media/Professional-Photo.628f2f91.jpg": "/static/media/Professional-Photo.628f2f91.jpg",
-    "static/media/coming-soon.d0e4ab41.png": "/static/media/coming-soon.d0e4ab41.png"
+    "static/media/coming-soon.d0e4ab41.png": "/static/media/coming-soon.d0e4ab41.png",
+    "static/media/emailWhiteSVG.1ee944b0.png": "/static/media/emailWhiteSVG.1ee944b0.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.7e445664.js",
+    "static/js/runtime-main.1364f7c8.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.9bea6bae.chunk.js",
-    "static/css/main.86673551.chunk.css",
-    "static/js/main.bd485786.chunk.js"
+    "static/js/2.7f2237d8.chunk.js",
+    "static/css/main.90468826.chunk.css",
+    "static/js/main.9fa9392c.chunk.js"
   ]
 }
