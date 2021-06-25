@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import { Button } from 'react-bootstrap';
 import React, { Component } from 'react';
 import './ButtonLink.css'
-import BoxArrowUpRight from '../SVGs/Box-arrow-up-right';
+import BoxArrowUpRight from '../SVGs/BoxArrowUpRight';
 /*
 Button component that is able to take in two parameters ButtonLink(link, text)
 */

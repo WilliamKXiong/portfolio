@@ -32,6 +32,14 @@
     padding-top: 1rem!important;
 }
 
+.card-title{
+    text-align: center;
+}
+
+.project-links{
+    text-align: center;
+}
+
 @media (min-width: 82px){
     .more-details.col-sm-4{
         left: -15px;

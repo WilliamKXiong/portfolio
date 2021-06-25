@@ -6,12 +6,20 @@
     font-size: 30px;
 }
 
+@media (min-width: 992px){
+    .container{
+        height: 1000px;
+    }
+}
+
 .row-body {
     font-size: calc(15px + 1.0vw);
     max-width: 100%;
-    height: auto;
 }
 
 .col-text {
     max-width: 100%
+}
+.about-description>span{
+    font-weight: bold;
 }
