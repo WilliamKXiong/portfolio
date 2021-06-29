@@ -30,7 +30,7 @@ const About = () => {
                 <Col sm={12} className="col-text">
                     <span className="about-description">
                         I created this site to showcase my projects and future projects that I would like to do. I also wanted to learn about React.js, 
-                        so I built this site utilizing <span>React.js</span>, <span>Node.js</span>, <span>Github Pages</span>, and <span>Google Domain</span>. I used CSS and Bootstrap the sites style and appearance.
+                        so I built this site utilizing <span>React</span>, <span>Node.js</span>, <span>Github Pages</span>, and <span>Google Domain</span>. I used CSS and Bootstrap for the sites style and appearance.
                     </span>
                 </Col>
             </Row>
