@@ -1,0 +1,6 @@
+"npm run deploy"
+	-create gh-pages build
+	-must reset domain manually
+	
+"npm start"
+	-run local server

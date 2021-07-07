@@ -1,4 +1,4 @@
-import { Container, Col, Image, Row } from 'react-bootstrap'
+import { Container, Col, Row } from 'react-bootstrap'
 import './JavaBattleshipGame.css'
 
 const JavaBattleshipGame = () => {
@@ -14,7 +14,6 @@ const JavaBattleshipGame = () => {
                     <br />
                 </Col>
                 <Col>
-
                     <br />
                     <br />
                     <br />
@@ -28,7 +27,7 @@ const JavaBattleshipGame = () => {
             </Row>
             <Row className="row-description">
                 <Row className="row-description-title">
-                    <h1></h1>
+                    <h1>Java-BattleShip</h1>
                 </Row>
                 <Row className="row--description-feature">
 
