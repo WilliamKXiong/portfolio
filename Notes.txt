@@ -1,6 +1,18 @@
 "npm run deploy"
 	-create gh-pages build
 	-must reset domain manually
+
+-Check git status
+git status
+-Retrieve changes from remote/main branch
+git pull
+-Add changes to staging
+git add .
+-Add description to changes
+git commit -m "Reason"
+-Send changes to remote branch
+git push
+
 	
 "npm start"
 	-run local server
