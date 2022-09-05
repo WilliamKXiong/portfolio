@@ -121,7 +121,7 @@ const Home = () => {
                     </Card>
                 </Col>
                 <Col sm={4} className="px-5 col-card">
-                    <Card>
+                    {/*<Card>
                         <Card.Img height="315" src={ComingSoon} />
                         <Card.Body className="d-flex flex-column">
                             <Card.Title>
@@ -140,12 +140,12 @@ const Home = () => {
                                         <ButtonLink variant="white" text="N/A" />
                                     </Col>
                                     <Col sm={4} className="more-details">
-                                        {/* <ButtonLink variant="link" link="#/PC-Builder" text="More Details" linkSVG="" /> */}
+                                        {// <ButtonLink variant="link" link="#/PC-Builder" text="More Details" linkSVG="" /> }
                                     </Col>
                                 </Row>
                             </Card.Text>
                         </Card.Body>
-                    </Card>
+                    </Card>*/}
                 </Col>
                 <Col sm={4} className="px-5 col-card">
                 </Col>

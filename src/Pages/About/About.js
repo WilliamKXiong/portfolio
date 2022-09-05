@@ -15,8 +15,8 @@ const About = () => {
                     <span>
                         Hello my name is William Xiong, and I am a Computer Science graduate at <a href="https://www.metrostate.edu/">Metropolitan State University.</a>
                         Before college I served 4 years in the United States Marine Corps as a Transmissions System Operator(radio operator for short).
+                        Currently, I am a Software Engineer at King Solutions, Inc.
                         My favorite football team is the Minnesota Vikings, I like to hang out with my family, and I like to do house projects/chores during my spare time.
-
                     </span>
                 </Col>
                 <Col sm={2}>
@@ -31,8 +31,7 @@ const About = () => {
             <Row className="px-5 row-body">
                 <Col sm={12} className="col-text">
                     <span className="about-description">
-                        I created this site to showcase my projects and future projects that I would like to do. I also wanted to learn about React.js,
-                        so I built this site utilizing <span>React</span>, <span>Node.js</span>, <span>Github Pages</span>, and <span>Google Domain</span>. I used CSS and Bootstrap for the sites style and appearance.
+                        This site is created with <span>React</span>, <span>Node.js</span>, <span>Github Pages</span>, and <span>Google Domain</span>. I used CSS and Bootstrap for the site's style and appearance.
                     </span>
                 </Col>
             </Row>
