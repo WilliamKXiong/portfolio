@@ -1,12 +1,16 @@
 "npm run deploy"
 	-create gh-pages build
-	-must reset domain manually
+	-updates website to be new changes
+	-must reset domain manually to revert from "github.io" back to ".com"
+	-to reset domain, login -> goto project Settings -> Pages -> 
+		-set Custom domain as "williamxiong.com"
 
 -Check git status
 git status
 -Retrieve changes from remote/main branch
 git pull
 -Add changes to staging
+
 git add .
 -Add description to changes
 git commit -m "Reason"
