@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 import { Button, ButtonProps } from 'react-bootstrap';
 import './ButtonLink.css';
 import BoxArrowUpRight from '../SVGs/BoxArrowUpRight';

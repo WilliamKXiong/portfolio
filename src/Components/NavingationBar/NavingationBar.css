@@ -18,18 +18,3 @@
 .navbar-white{
     background-color: white;
 }
-
-.focusAnimate {
-    border: 2px solid white;
-    border-radius: 50%;
-    animation: scale 1s infinite alternate;
-}
-  
-@keyframes scale {
-    0% {
-        transform: scale(1);
-    }
-    100% {
-        transform: scale(1.2);
-    }
-}

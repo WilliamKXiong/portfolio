@@ -1,5 +1,3 @@
-//import './App.css';
-import React from 'react';
 import { Router, Route, Switch } from 'react-router-dom';
 import NavingationBar from './Components/NavingationBar/NavingationBar';
 import Home from './Pages/Home/Home';

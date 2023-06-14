@@ -1,4 +1,3 @@
-import React from 'react';
 import "./Footer.css"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Col, Row, Container } from 'react-bootstrap';
