@@ -17,6 +17,8 @@ git commit -m "Reason"
 -Send changes to remote branch
 git push
 
+*commit changes to "main" branch.
+*"npm run deploy" will update the "gh-pages" branch, which houses the website itself
 	
 "npm start"
 	-run local server

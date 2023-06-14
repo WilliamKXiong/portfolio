@@ -21,7 +21,7 @@ export default function Home(): JSX.Element {
         />
         <ProjectCard
           mediaFile={"PCBuilder"}
-          cardTitle={"PC Builder"}
+          cardTitle={"PC Builder(2021)"}
           cardText={"A website that checks for computer parts compatibility. No front end framework, Spring as backend, MySQL as database."}
           buttonLink={"https://github.com/dTrksak/PCBuilder"}
         />
