@@ -3,7 +3,7 @@
 }
 
 .container {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 /* .col-photo {
@@ -40,10 +40,11 @@
     }
 }
 
+/*
 .row-body {
-    font-size: calc(15px + 1.0vw);
+    font-size: calc(4px + 1.0vw);
     max-width: 100%;
-}
+}*/
 
 .about-description>span {
     font-weight: bold;

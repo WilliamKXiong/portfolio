@@ -1,11 +1,13 @@
+import React from 'react';
 import "./NavingationBar.css"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Nav, Navbar } from 'react-bootstrap';
 
-const NavingationBar = () => {
+const NavingationBar: React.FC = () => {
     function scrollBottom() {
-        window.scrollTo(0, document.body.clientHeight)
+        window.scrollTo(0, document.body.clientHeight);
     }
+    
     return (
         <Navbar className="NavingationBar" variant="dark" expand="lg">
             <Navbar.Brand href="/" className="NavBrand" style={{ color: "white" }}>My Portfolio</Navbar.Brand>

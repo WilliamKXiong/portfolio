@@ -1,12 +1,12 @@
+import React, {useState} from 'react';
 import "./Footer.css"
-import "./CircleFocus.css"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Col, Row, Container } from 'react-bootstrap';
 import LinkedInSVG from "../SVGs/LinkedInSVG";
 import GithubWhiteSVG from "../SVGs/GithubWhiteSVG";
 import EmailWhiteSVG from "../SVGs/EmailWhiteSVG";
 
-const Footer = () => {
+const Footer: React.FC = () => {
     return (
         <Container fluid className="footer" id="footer">
             <Row>
@@ -17,7 +17,6 @@ const Footer = () => {
                 </Col>
                 <Col sm={6}>
                     <Col sm={12} className="col-contact">
-                        <div className="circle"/>
                         <Row><a href="https://github.com/WilliamKXiong"><GithubWhiteSVG /> My Github</a></Row>
                         <Row><a href="https://www.linkedin.com/in/william-xiong-b5312a140/"><LinkedInSVG /> My LinkedIn</a></Row>
                         <Row><a href="mailto:williamkarxiong@gmail.com"><EmailWhiteSVG /> williamkarxiong@gmail.com</a></Row>
