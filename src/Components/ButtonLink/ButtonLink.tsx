@@ -1,7 +1,7 @@
 import { Component } from 'react';
 import { Button, ButtonProps } from 'react-bootstrap';
-import './ButtonLink.css';
-import BoxArrowUpRight from '../SVGs/BoxArrowUpRight';
+import 'Components/ButtonLink/ButtonLink.css';
+import BoxArrowUpRight from 'Components/SVGs/BoxArrowUpRight';
 
 interface ButtonLinkProps extends ButtonProps {
   link: string;

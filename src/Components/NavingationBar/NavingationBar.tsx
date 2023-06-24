@@ -1,4 +1,4 @@
-import "./NavingationBar.css"
+import "Components/NavingationBar/NavingationBar.css"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Nav, Navbar } from 'react-bootstrap';
 

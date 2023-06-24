@@ -1,7 +1,7 @@
-import './About.css';
-import '../../Helper/CommonlyUsed.css';
+import 'Pages/About/About.css';
+import 'Helper/CommonlyUsed.css';
 import { Image, Container, Row, Col } from 'react-bootstrap';
-import ProfessionalPhoto from '../../Images/Professional-Photo.jpg';
+import ProfessionalPhoto from 'Images/Professional-Photo.jpg';
 
 export default function About(): JSX.Element {
   return (
@@ -28,12 +28,6 @@ export default function About(): JSX.Element {
                     </li>
                 </ul>
             </span>
-          {/* <span>
-            Hello, my name is William Xiong. I am a Computer Science graduate at{" "}
-            <a href="https://www.metrostate.edu/">Metropolitan State University.</a> Before college I served 4 years in the United States Marine Corps as a
-            Transmissions System Operator(radio operator for short). Currently, I am a Software Engineer at <span style={{ color: 'orange' }}>Orange Tree Employment Screening</span>. My favorite football team
-            is the Minnesota Vikings, I like to hang out with my family, and I like to do house projects/chores during my spare time.
-          </span> */}
         </Col>
         <Col sm={2}>
           <Image src={ProfessionalPhoto} />

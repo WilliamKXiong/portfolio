@@ -1,12 +1,12 @@
-import './ProjectCard.css';
-import '../../Helper/CommonlyUsed.css';
-import ButtonLink from '../ButtonLink/ButtonLink';
+import 'Components/ProjectCard/ProjectCard.css';
+import 'Helper/CommonlyUsed.css';
+import ButtonLink from 'Components/ButtonLink/ButtonLink';
 import { Card, Row, Col } from 'react-bootstrap';
-import JavaBattleship from '../../Media/JavaBattleship';
-import PCBuilder from '../../Media/PCBuilder';
-import PublicTransportVehicleEstimator from '../../Media/PublicTransportVehicleEstimator';
-import ComingSoon from '../../Images/coming-soon.png';
-import MyPorfolio from '../../Images/MyPortfolio.jpg';
+import JavaBattleship from 'Media/JavaBattleship';
+import PCBuilder from 'Media/PCBuilder';
+import PublicTransportVehicleEstimator from 'Media/PublicTransportVehicleEstimator';
+import ComingSoon from 'Images/coming-soon.png';
+import MyPorfolio from 'Images/MyPortfolio.jpg';
 
 interface ProjectCardProps {
   mediaFile: string;

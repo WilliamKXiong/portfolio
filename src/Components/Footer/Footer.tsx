@@ -1,9 +1,9 @@
-import "./Footer.css"
+import "Components/Footer/Footer.css"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Col, Row, Container } from 'react-bootstrap';
-import LinkedInSVG from "../SVGs/LinkedInSVG";
-import GithubWhiteSVG from "../SVGs/GithubWhiteSVG";
-import EmailWhiteSVG from "../SVGs/EmailWhiteSVG";
+import LinkedInSVG from "Components/SVGs/LinkedInSVG";
+import GithubWhiteSVG from "Components/SVGs/GithubWhiteSVG";
+import EmailWhiteSVG from "Components/SVGs/EmailWhiteSVG";
 
 const Footer: React.FC = () => {
     return (

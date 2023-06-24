@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Image } from 'react-bootstrap';
-import EmailWhite from '../../Images/emailWhiteSVG.png';
+import EmailWhite from 'Images/emailWhiteSVG.png';
 
 //Not really a SVG, but used as one
 const EmailWhiteSVG: React.FC = () => {

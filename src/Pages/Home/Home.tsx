@@ -1,7 +1,7 @@
-import './Home.css';
-import '../../Helper/CommonlyUsed.css';
+import 'Pages/Home/Home.css';
+import 'Helper/CommonlyUsed.css';
 import { Container, Row, Col } from 'react-bootstrap';
-import ProjectCard from '../../Components/ProjectCard/ProjectCard';
+import ProjectCard from 'Components/ProjectCard/ProjectCard';
 
 export default function Home(): JSX.Element {
   return (

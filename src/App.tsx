@@ -1,8 +1,8 @@
 import { Router, Route, Switch } from 'react-router-dom';
-import NavingationBar from './Components/NavingationBar/NavingationBar';
-import Home from './Pages/Home/Home';
-import About from './Pages/About/About';
-import Footer from './Components/Footer/Footer';
+import NavingationBar from 'Components/NavingationBar/NavingationBar';
+import Home from 'Pages/Home/Home';
+import About from 'Pages/About/About';
+import Footer from 'Components/Footer/Footer';
 import { createHashHistory } from 'history';
 
 const history = createHashHistory();
