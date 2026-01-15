@@ -19,6 +19,7 @@ git push
 
 *commit changes to "main" branch.
 *"npm run deploy" will update the "gh-pages" branch, which houses the website itself
-	
+
+This uses react-scripts which require a deprecated Node version 16.20.2.
 "npm start"
 	-run local server

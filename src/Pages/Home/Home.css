@@ -11,7 +11,7 @@
     text-transform: none;
 }
 
-.col-card{
+.col-card {
     min-width: 225px;
 }
 
@@ -28,25 +28,26 @@
     min-width: 67px;
 }
 
-.github-button{
-    padding-top: 1rem!important;
+.github-button {
+    padding-top: 1rem !important;
 }
 
-.card-title{
+.card-title {
     text-align: center;
 }
 
-.project-links{
+.project-links {
     text-align: center;
 }
 
-@media (min-width: 82px){
-    .more-details.col-sm-4{
+@media (min-width: 82px) {
+    .more-details.col-sm-4 {
         left: -15px;
     }
 }
-@media (max-width: 575px){
-    .more-details.col-sm-4{
+
+@media (max-width: 575px) {
+    .more-details.col-sm-4 {
         left: -0;
     }
 }
