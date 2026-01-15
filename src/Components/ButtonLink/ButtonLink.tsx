@@ -1,31 +1,34 @@
-import { Component } from 'react';
-import { Button, ButtonProps } from 'react-bootstrap';
+import {Component} from 'react';
+import {
+    Button,
+    ButtonProps
+} from 'react-bootstrap';
 import 'Components/ButtonLink/ButtonLink.css';
 import BoxArrowUpRight from 'Components/SVGs/BoxArrowUpRight';
 
 interface ButtonLinkProps extends ButtonProps {
-  link: string;
-  text: string;
-  linkSVG?: string;
+    link: string;
+    text: string;
+    linkSVG?: string;
 }
 
 class ButtonLink extends Component<ButtonLinkProps> {
-  render() {
-    const { link, text, linkSVG, size, variant } = this.props;
-    if (linkSVG === undefined || linkSVG === "") {
-      return (
-        <Button size={size || "sm"} variant={variant || "dark"} href={link}>
-          {text}
-        </Button>
-      );
-    } else {
-      return (
-        <Button size={size || "sm"} variant={variant || "dark"} href={link}>
-          <BoxArrowUpRight /> {text}
-        </Button>
-      );
+    render() {
+        const {link, text, linkSVG, size, variant} = this.props;
+        if (linkSVG === undefined || linkSVG === "") {
+            return (
+                <Button size={size || "sm"} variant={variant || "dark"} href={link}>
+                    {text}
+                </Button>
+            );
+        } else {
+            return (
+                <Button size={size || "sm"} variant={variant || "dark"} href={link}>
+                    <BoxArrowUpRight/> {text}
+                </Button>
+            );
+        }
     }
-  }
 }
 
 export default ButtonLink;

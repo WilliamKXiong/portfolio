@@ -1,20 +1,9 @@
-.NavLink {
-    font-size:large;
-    font-weight: bold;
-}
-
-.NavingationBar {
+.navigation-bar {
     background-color: #1f2224;
+    padding: 10px;
 }
 
-.white {
-    color:white;
-}
-
-.NavBrand {
-    font-size:25px;
-}
-
-.navbar-white{
-    background-color: white;
+.navbar-nav {
+    font-weight: bold;
+    font-size: large;
 }

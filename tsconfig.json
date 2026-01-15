@@ -10,7 +10,7 @@
     "strict": true,
     "esModuleInterop": true,
     "moduleResolution": "node",
-    "baseUrl": "./src",
+    "baseUrl": "src",
     "outDir": "./dist",
     "resolveJsonModule": true,
     "allowJs": true,
@@ -23,8 +23,9 @@
   },
   "include": [
     "src/**/*.ts",
-    "src/**/*.tsx"
-, "src/index.js"  ],
+    "src/**/*.tsx",
+    "src/index.js"
+  ],
   "exclude": [
     "node_modules"
   ]
