@@ -1,9 +1,13 @@
+To push to production
 "npm run deploy"
-	-create gh-pages build
-	-updates website to be new changes
-	-must reset domain manually to revert from "github.io" back to ".com"
-	-to reset domain, login -> goto project Settings -> Pages -> 
-		-set Custom domain as "williamxiong.com"
+    -*You must run this command locally.
+    If will
+        -create gh-pages build
+        -update gh-pages branch in repo
+        -updates website with new changes
+        -must reset domain manually to revert from "github.io" back to ".com"
+        -to reset domain, login -> goto project Settings -> Pages ->
+            -set Custom domain as "williamxiong.com"
 
 -Check git status
 git status
